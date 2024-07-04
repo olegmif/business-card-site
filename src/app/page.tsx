@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Business Card Site</h1>
+      <p>Miftakhov.pro</p>
     </main>
   );
 }
