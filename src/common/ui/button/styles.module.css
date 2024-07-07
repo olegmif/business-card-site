@@ -1,0 +1,17 @@
+.button {
+    --border-color: rgb(213, 213, 213);
+    --text-color: rgb(255, 255, 255);
+    --text-color-hover: rgb(34, 34, 34);
+    --background-hover: rgb(213, 213, 213);
+
+    padding: 8px 16px;
+    border: 2px solid var(--border-color);
+    color: var(--text-color);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--text-color-hover);
+    background-color: var(--background-hover);
+}

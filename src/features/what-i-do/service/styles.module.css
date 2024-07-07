@@ -1,0 +1,9 @@
+.service {
+    display: grid;
+    grid-template-columns: 42px auto;
+}
+
+.icon svg {
+    stroke: white;
+    fill: white;
+}
